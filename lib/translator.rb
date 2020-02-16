@@ -22,7 +22,6 @@ def get_japanese_emoticon(path, emoticon)
   else
     result
   end
-    result
 end
 
 
