@@ -17,6 +17,11 @@ end
 def get_japanese_emoticon(path, emoticon)
   hash = load_library(path)
   result = hash["get_emoticon"][emoticon]
+  if result == nil 
+    "sorry the emoticon was not found"
+  else
+    result
+  end
 end
 
 
