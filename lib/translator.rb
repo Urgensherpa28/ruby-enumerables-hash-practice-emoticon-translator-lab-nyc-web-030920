@@ -8,8 +8,8 @@ def load_library(path)
   hash2 = {"get_meaning": {}} 
 
   hash.each do |english, japanese|
-    if hash[:get_meaning]
-      hash[:get_meaning] == japanese 
+    if hash2[:get_meaning]
+      hash2[:get_meaning] == japanese 
     end
   end
 end
