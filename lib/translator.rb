@@ -4,8 +4,8 @@ def load_library(path)
   emoticons = YAML.load_file(path)
   
   hash = Hash.new
-  hash["get_emoticon"] 
-  hash["get_meaning"]
+  hash["get_emoticon"] = Hash.new
+  hash["get_meaning"] = Hash.new 
 
   hash2.each do |english, japanese|
     if hash2[:get_meaning]
