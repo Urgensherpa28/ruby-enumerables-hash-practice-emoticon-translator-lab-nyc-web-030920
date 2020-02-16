@@ -8,7 +8,7 @@ def load_library(path)
   hash["get_meaning"] = Hash.new 
 
   hash.each do |english, japanese|
-    hash[:get_meaning]
+    hash["get_emoticon"][japanese] 
 
 end
 
