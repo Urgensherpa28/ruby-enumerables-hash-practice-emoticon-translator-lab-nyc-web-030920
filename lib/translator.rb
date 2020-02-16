@@ -7,9 +7,9 @@ def load_library(path)
   hash["get_emoticon"] = Hash.new
   hash["get_meaning"] = Hash.new 
 
-  hash2.each do |english, japanese|
-    if hash2[:get_meaning]
-      hash2[:get_meaning] == japanese 
+  hash.each do |english, japanese|
+    if hash[:get_meaning]
+      hash[:get_meaning] == japanese 
     end
   end
 end
